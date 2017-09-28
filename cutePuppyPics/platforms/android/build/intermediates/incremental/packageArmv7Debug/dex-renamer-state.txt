@@ -1,4 +1,0 @@
-#Wed Sep 27 20:17:43 CEST 2017
-base.0=/Users/davidjimenezgonzalez/Desktop/GitHub/Apps/cutePuppyPics/platforms/android/build/intermediates/transforms/dex/armv7/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/davidjimenezgonzalez/Desktop/GitHub/Apps/cutePuppyPics/platforms/android/build/intermediates/transforms/dex/armv7/debug/folders/1000/1f/main/classes.dex
