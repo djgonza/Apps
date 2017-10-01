@@ -1,0 +1,13 @@
+<ion-header>
+
+	<ion-navbar>
+		<ion-title>Productos</ion-title>
+	</ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+	
+	<detalle-producto *ngFor="let producto of productosActuales" [producto]="producto"></detalle-producto>
+
+</ion-content>
