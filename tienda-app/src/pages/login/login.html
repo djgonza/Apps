@@ -1,0 +1,28 @@
+<ion-content>
+	<button ion-button color="primary" block (click)="doLoginByGoogle()">LogIn Google</button>
+	<button ion-button color="primary" block (click)="doLogoutByGoogle()">LogOut Google</button>
+	<button ion-button color="primary" block (click)="doDisconnectByGoogle()">Disconnect Google</button>
+	<form (submit)="doLogin()">
+		<ion-list>
+
+			<ion-item>
+				<ion-label fixed>{{ 'EMAIL' | translate }}</ion-label>
+				<ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
+			</ion-item>
+
+			<ion-item>
+				<ion-label fixed>{{ 'PASSWORD' | translate }}</ion-label>
+				<ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
+			</ion-item>
+
+			<div padding>
+				<button ion-button color="primary" block>{{ 'LOGIN_BUTTON' | translate }}</button>
+			</div>
+
+		</ion-list>
+	</form>
+	<div>
+		<p>{{userData.email}}</p>
+		<p>{{userData.userId}}</p>
+	</div>
+</ion-content>
